@@ -1,4 +1,6 @@
-a = [1,2,2,3,3,1,4,6]
+a = [1,2,2]
+
+print("Length of List: ",len(a));
 
 print("Size of a: ", len(a))
 

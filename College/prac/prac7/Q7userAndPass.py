@@ -22,8 +22,7 @@ def passcheck(attempts):
         attempted_id = input("Enter Your UserId: ");
         attempted_passwd = input("Enter Your Passwd: ");
         passchecker = login(attempted_id, attempted_passwd);
-        # DEBUGGING BLOCK
-        #  print("PassChecker: ", passchecker, "Attempts: ", attempts);
+       
         if passchecker == False and attempts > 1: 
             print("Account has been blocked");
             break;
