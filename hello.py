@@ -1,4 +1,3 @@
-a = "Hello World"
+a = "Gruvbox is Awesome"
 
-print(a); 
-
+print(a);
