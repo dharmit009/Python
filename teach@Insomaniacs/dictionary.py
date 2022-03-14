@@ -1,8 +1,9 @@
-
+# What are dictionaries?
+##
 a = {
-        "1" : "Start the game", 
-        "2" : "Settings", 
-        "3" : "Exit", 
+        "1" : "Start the game",
+        "2" : "Settings",
+        "3" : "Exit",
 }
 
 print("Menu");

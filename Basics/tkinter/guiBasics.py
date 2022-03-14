@@ -16,7 +16,6 @@ def myfunc():
     mycursor.execute(sql)
     con.commit()
     con.close()
-    
 
 master = Tk()
 

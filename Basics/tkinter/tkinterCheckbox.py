@@ -8,7 +8,7 @@ def hobby():
         label2.config(text="I Like Photography.")
     elif musicVar == 1 and photoVar == 1:
         label2.config(text="I like to do both.")
-    else: 
+    else:
         label2.config(text="Error! [E]: ")
 
 
