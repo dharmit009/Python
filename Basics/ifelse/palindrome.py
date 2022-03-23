@@ -8,7 +8,7 @@ def palindrome(String1):
 
 
 print(" #### Palindrome or Not #### ");
-userString = input("Enter a String: ");
+userString = input("Enter a Number: ");
 palindrome(userString)
 
 

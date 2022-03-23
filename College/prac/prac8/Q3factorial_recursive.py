@@ -21,7 +21,3 @@ num = int(input("Enter a number: "));
 fact = fact(num);
 print(f"Factorial [{num}]: ", fact);
 
-
-
-
-

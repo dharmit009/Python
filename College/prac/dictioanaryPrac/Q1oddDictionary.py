@@ -12,32 +12,32 @@
 """
 
 odd={
-	1:"One", 
-	3:"Three", 
-	5:"Five", 
-	7:"Seven", 
-	9:"Nine" 
+	1:"One",
+	3:"Three",
+	5:"Five",
+	7:"Seven",
+	9:"Nine"
 }
 
 print("Keys: ");
-for key in odd.keys(): 
-	print(key, sep=", ", end=" "); 
+for key in odd.keys():
+	print(key, sep=", ", end=" ");
 print("");
 
 print("Values: ");
-for values in odd.values(): 
-	print(values, sep=",", end=" "); 
+for values in odd.values():
+	print(values, sep=",", end=" ");
 print("");
 print("");
 
 
 print("Dictionary: ");
-for x, y in odd.items(): 
+for x, y in odd.items():
 	print(f"{x}: {y}");
 print("");
 
-if 7 in odd: 
-	print("Seven is present"); 
+if 7 in odd:
+	print("Seven is present");
 
 print(odd.get(9))
 

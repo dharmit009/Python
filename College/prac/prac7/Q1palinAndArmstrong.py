@@ -8,11 +8,10 @@ def palindrome(n):
         n //= 10;
 
 
-    if temp == summer: 
-       #  print("Number:",temp,"== Palindrome:" ,summer);
+    if temp == summer:
         print("It is a palindrome!");
-    else: 
-        print("Number: {temp} is not a palindrome. ");
+    else:
+        print(f"Number: {temp} is not a palindrome. ");
     print("")
 
 
@@ -24,15 +23,15 @@ def armstrong(n):
        remainder = temp % 10;
        result += remainder * remainder * remainder;
        temp //= 10;
-    
-    if result == n: 
+
+    if result == n:
         # print("Number:", n,"== Armstrong:", result);
         print("It is a Armstrong!");
-    else: 
-        print("Number: {temp} is not a Armstrong. ");
+    else:
+        print(f"Number: {temp} is not a Armstrong. ");
     print("")
 
-    
+
 num = int(input("Enter a Number: "));
 palindrome(num)
 armstrong(num)

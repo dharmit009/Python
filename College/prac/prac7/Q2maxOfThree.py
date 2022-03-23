@@ -1,11 +1,11 @@
 
 def maxi(a,b,c):
     if a > b and a > c:
-        return a; 
+        return a;
     elif b > a and b > c:
-        return b; 
-    else: 
-        return c; 
+        return b;
+    else:
+        return c;
 
 
 a = int(input("Enter number a: "));
