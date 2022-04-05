@@ -10,5 +10,6 @@ for i in range(0,3):
 location = input("Enter a place name: ")
 something = input("Enter something you like to do: ")
 
-out = base_line + ad[0] + f"in the mountains of {location}, He used to like {something} everyday. But once day someone kicked him out. So he started {ad[2]} and {ad[1]}"
+print("")
+out = base_line + ad[0] + f"in the mountains of {location},\nHe used to like {something} everyday.\nBut once day someone kicked him out.\nSo he started {ad[1]} {ad[2]}"
 print(out)

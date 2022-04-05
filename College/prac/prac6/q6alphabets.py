@@ -11,13 +11,15 @@ a = {
         "S": 19, "T": 20,
         "U": 21, "V": 22,
         "W": 23, "X": 24,
-        "Y": 25, "Z": 26  }
+        "Y": 25, "Z": 26
+}
+
 print(a);
+
 userin = input("Enter a word: ");
-userin = userin.upper();
-summer = 0
+summer = 0;
 
-
-
-
-print(summer);
+for x in userin:
+    x=x.upper()
+    summer+=a[x]
+print(summer)

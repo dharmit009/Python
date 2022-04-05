@@ -10,13 +10,13 @@
 # * FIBONACCI:* Fibonacci series is a series of previous two numbers in the series. It always starts
 # with zero and one. 
 
-def fibonacci(n): 
-    n0, n1 = 0, 1 
+def fibonacci(n):
+    n0, n1 = 0, 1
     out = 0
 
-    if n < 0: 
+    if n < 0:
         print("Error: Enter number greater then 0!"); 
-    else: 
+    else:
         for _ in range(0,n):
             n0 = n1
             n1 = out

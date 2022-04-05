@@ -12,11 +12,11 @@ Regex uses ASCII table character for pattern matching. This table include normal
 
 * `\d`         --> can be used to represent any character from 0 to 9.
 * `\D`         --> can be used to represent any non numeric character.
-* `.`          --> is used to represent wildcard.
+* `.`          --> is used to represent wild card.
 * `\`          --> are used as an escape sequence.
 * `[]`         --> square brackets are used to match specific set of data.
 * `[^]`        --> The caret is used to exclude specific set of data.
-* `\w`         --> can be used to represent any non alphanumeric character.
+* `\w`         --> can be used to represent any alphanumeric character.
 * `\W`         --> can be used to represent any non alphanumeric character.
 * `a{n}`       --> Used to find repetitions.
 * `{m,n}`      --> Used to find repetitions can also have a range from m,n.
