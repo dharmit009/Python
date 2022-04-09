@@ -1,8 +1,8 @@
 import random
 
-class dices: 
+class dices:
 
-    def __init__(self, name): 
+    def __init__(self, name):
         self.name = name;
 
     def roll(self):
@@ -13,13 +13,13 @@ class dices:
 d1 = dices("Dice1");
 d2 = dices("Dice2");
 
-while True: 
+while True:
     userIn = input();
     if userIn == "exit" or userIn == "quit":
         print("Exitting ...")
-        break; 
+        break;
 
-    else: 
+    else:
         d1.roll()
         d2.roll()
 

@@ -1,4 +1,4 @@
-# importing regex. 
+# importing regex.
 import re
 
 # A very old programming language and is very cryptic. - REGEX

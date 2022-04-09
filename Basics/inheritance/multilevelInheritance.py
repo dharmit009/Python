@@ -15,12 +15,12 @@ class C(B):
 
 def main():
     # creating a obj from class C  ...
-    myMultilevelObjC = C(); 
+    myMultilevelObjC = C();
 
     # Using `obj C` to call all the inherited methods ...
-    myMultilevelObjC.displayA(); 
-    myMultilevelObjC.displayB(); 
-    myMultilevelObjC.displayC(); 
+    myMultilevelObjC.displayA();
+    myMultilevelObjC.displayB();
+    myMultilevelObjC.displayC();
 
 
 if __name__ == '__main__':

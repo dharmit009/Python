@@ -1,1 +1,1 @@
-file_opener = open("test.txt", "w+");
+myfile = open("test.txt", "a");

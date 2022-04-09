@@ -9,7 +9,7 @@ class B(A):
 
 def main():
     testObjOfB = B();
-    
+
     # calling displayA from test object of B ...
     testObjOfB.displayA();
 
